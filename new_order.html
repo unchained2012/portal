@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Создание заявки</title>
+    <link rel="stylesheet" href="style_n.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ <header>
+ <!-- Шапка сайта -->
+ <div class="container_r">
+    <div class="head_logo_slogan_btn">
+        <div class="heading1">Начни решать проблемы сегодня!</div>
+            <div class="logo_slogan_btn">
+             <div class="logo" ><img src="logo/Logo.svg"></div>
+                <div class="slogan_and_btn">
+                 <div class="slogan">Сделаем <span style="font-weight: 900; 
+                 text-decoration: underline; font-size: 30px;">лучше</span> вместе!</div>
+                 <div class="registraion_btn_r">  </div>
+                </div>
+            </div>
+    </div>
+
+
+
+</div>
+ </header>   
+<!-- Блок список заявок -->
+
+
+    <div class="done">Создание<span style="color: #4599B4; font-weight: 900;"> заявки</span></div>    
+    <div class="container_done_padding_o">
+    <div class="container_done_o">
+        <!-- <div class="carousel_o"> -->
+            <div class="carousel_padding_o">
+
+    <form action="https://portal.ru" enctype="multipart/form-data" method="post" form id="order_form"></form>
+    <!-- Левый лист -->
+   <div class="left_paper_r">
+    
+    <input type="text" name="list1" placeholder="Введите название" form="order_form" class="fio">
+    <!-- <input type="text" name="type_o" value="Категория" form="order_form" class="agreement"> -->
+    
+    
+    <!-- <div class="agreement"><pre>Прикрепить фото </pre><img src="logo/plus-box-multiple_add_photo.svg"> </div> -->
+    
+
+   </div>
+   <!-- Конец левого листа -->
+
+<!-- Правый лист -->
+<div class="right_paper_r">
+    <input type="text" name="list2" placeholder="Введите описание проблемы" form="order_form" class="problem">
+    <div class="label_select">
+        <div class="category1" ><pre>Категория:</pre></div> 
+        <!-- <label for="select_o" class="select" id="select_l">Категория</label> -->
+        
+        <select form="order_form" name="type_o" class="category2" label="Категория" id="select_o">
+            <option value="REMONT">Ремонт</option>
+            <option value="UBORKA">Уборка</option>
+            <option value="SPIL">Спил деревьев</option>
+        
+        </select>
+    </div>
+    
+    <div class="upload_container">
+        <input type="file" id="file-input" name="order_icon" form="order_form"
+         accept="image/jpeg" class="agreement input">
+        <label for="file-input" class="agreement"><pre>Прикрепить фото </pre><img src="logo/plus-box-multiple_add_photo.svg"></label>
+        
+    </div>
+   </div>
+   <!-- Конец правого листа -->
+
+    
+
+</div>
+    </div>
+    <!-- </div> от тега carousel_o-->
+</div>
+
+ <!--Группа кнопок внизу страницы  -->
+
+        <div class="bottom_icons_r">
+         
+    <div class="green_btn return_main"><a href="index.html">Вернуться на главную</a></div>
+    <button type="submit" form="order_form" class="yellow_btn register"><a href="order_list.html">Создать заявку</a></button>
+
+        </div>
+
+<!-- Подвал -->
+<footer>
+<div class="container_footer">
+    <div class="all_phone">
+        <div class="telephone_phone">
+            <div class="telephone">Телефон:</div>
+            <div class="phone" ><img src="logo/phone-classic.svg"></div>
+        </div>
+        <div class="numberphone">(846) 332-22-03</div>
+    </div>
+    <div class="solved_all">
+        <div class="solved1">Мы решили </div>
+        <div class="solved_number">99999</div>     
+        <div class="solved2">проблем с Вашей помощью.</div>
+    </div>
+
+
+ </footer>
+
+<!-- Окно выбора типа заявки -->
+<div class="popup_bg">
+    <div class="popup1">
+        <h1>Фильтр заявок</h1>
+            <div class="verdicts">
+                
+            <div class="verdict_checkbox">
+                <div class="verdict_new verdict_list">Ремонт</div>
+                <div class="checkbox_verdict"><input type="checkbox" name="a" value="yes"></div>
+            </div>
+            <div class="verdict_checkbox">
+                <div class="verdict_yes verdict_list">Уборка</div>  
+                <div class="checkbox_verdict"><input type="checkbox" name="a" value="yes"></div>
+            </div>
+            <div class="verdict_checkbox">
+                <div class="verdict_no verdict_list">Спил деревьев</div> 
+                <div class="checkbox_verdict"><input type="checkbox" name="a" value="yes"></div>
+            </div>
+            </div> 
+        <div class="ok_btn">ОК</div>
+        
+    </div>
+ </div>
+
+</body>
+</html>

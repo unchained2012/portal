@@ -1,0 +1,646 @@
+/* * {font-family: 'Nunito', sans-serif;} */
+/* *{font-family: 'Roboto', sans-serif; font-size: 40px; font-weight: 400;} */
+
+body {
+    margin: 0;
+    background: #EAEAEA;
+}
+a {text-decoration: none; color: white;}
+header {background: linear-gradient(90deg, #8886E5, #3EC03B); margin: 0;}
+.container {padding: 34px 48px; display: flex;justify-content: space-between;}
+.heading1 {font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 33px;color: white; text-transform: uppercase;}
+.slogan {font-family: 'Roboto', sans-serif; font-weight: 300;font-size: 25px; color:#E7E7E7;}
+.logo {margin-right: 60px;}
+.registraion_btn {font-family: 'Roboto', sans-serif;color: white;font-size: 19px; font-weight: 400;
+    text-transform: uppercase;border-radius: 50px;background: #CCC861; display: flex; 
+    justify-content: center;align-items: center; 
+    margin-top: 24px; width: 295px; height: 54px; }
+
+.slogan_and_btn {text-align: center;}
+.logo_slogan_btn {display: flex; align-items: flex-start;margin-top: 24px;}
+
+.arrow {margin: 90px -45px 0px -95px;}
+.arrow_lk {margin: 126px 329px -95px -95px;}
+
+.solution_btn {display: flex; flex-direction: column; align-items: flex-end;}
+.solution {font-family: 'Roboto', sans-serif; font-weight: 400;font-size: 40px; color: #787878;
+    text-transform: uppercase;text-align: center;margin-right: 52px;}
+.enter_btn {font-family: 'Roboto', sans-serif;color: white;font-size: 19px; font-weight: 400;
+    text-transform: uppercase;border-radius: 50px;background: #CCC861; display: flex; 
+    justify-content: space-around;align-items: center; 
+    margin-bottom: 24px; width: 109px; height: 54px; }
+
+/* Блок сделали вместе */
+
+.done {font-family: 'Roboto', sans-serif; font-weight: 400;font-size: 40px; color: #787878;
+    text-transform: uppercase;text-align: center;margin-top: 18px; margin-bottom: 20px; 
+    letter-spacing: .07em;}
+
+/* Кнопка назад */
+
+.rewind {margin-left: 20px;}
+
+/* Карусель */
+
+
+.container_done {padding: 0px 48px 38px 30px;}
+.container_done_padding {display: flex; justify-content: center;}
+.carousel_padding {display: flex; align-items: center;}
+.carousel_items_padding {padding: 0 14px;}
+.carousel_items {display: flex; flex-direction: column; width: 224px; height:312px; 
+    background-color: #FFFFFF; border-radius: 20px;}
+.carousel_items_title {margin-top: 17px; margin-bottom: 20px;font-family: 'Nunito', sans-serif; 
+    font-weight: 400; font-size: 14px;color: #8F8F8F; text-align: center;}
+.carousel_image {
+    background:url(img/flashlight.jpg);
+    width: 224px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.carousel_image2 {
+    background:url(img/pit.jpg);
+    width: 224px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.carousel_image3 {
+    background:url(img/playground.jpg);
+    width: 224px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.carousel_image4 {
+    background:url(img/snow.jpg);
+    width: 224px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.category_all {display: flex;justify-content: flex-start; align-items: center;margin-left: 36px;}
+.drag_indicator {color: #BFBFBF;margin-right: 5px;display: flex;}
+.category_title {font-family: 'Nunito', sans-serif; 
+    font-weight: 300; font-size: 10px;color: #9E9E9E;margin-right: 4px;}
+.category {font-family: 'Nunito', sans-serif; 
+    font-weight: 600; font-size: 10px;text-transform: uppercase;color: #9E9E9E;}
+
+    .date_all {display: flex;justify-content: flex-start; align-items: flex-end;margin-left: 37px;margin-bottom: 16px;}
+    .date_icon {color: #B4B4B4; margin-right: 6px;}
+    .date {font-family: 'Nunito', sans-serif; 
+        font-weight: 400; font-size: 12px;color: #7A7A7A;}
+
+        /* Кнопка подробнее */
+
+.detailed {font-family: 'Nunito', sans-serif;color: white;font-size: 11px; font-weight: 500;
+    background: #49B846; display: flex; justify-content: space-around;align-items: center;
+     height: 37px; border-radius: 0px 0px 20px 20px;}
+
+     /* Кнопка вперед */
+    .rewind {margin-right: 20px;}
+/* Блок подвала */
+
+footer {font-family: 'Nunito', sans-serif;background-color: #474747; margin: 0;color: #D0D0D0; 
+     font-size: 20px; font-weight: 300;}
+.container_footer {padding: 20px 48px 20px 48px; display: flex;justify-content: space-between;
+    align-items: flex-end;}
+.phone {margin-left: 10px;}
+.telephone_phone {display: flex;}
+.all_phone {display: flex;flex-direction: column;}
+.solved_all {display: flex;}
+.solved_number {font-weight: 900;margin-left: 0.5em; margin-right: 0.5em;}
+
+/* Окно авторизации */
+
+.popup_bg {position: absolute; background: #00000085; width: 100%; height: 100%; top: 0; left: 0;
+    display: none;}
+.popup {width: 500px; background: white; margin: 0 auto; margin-top: 5%; border-radius: 20px;
+display: flex; flex-wrap: wrap; justify-content: center; position: relative;}
+
+h1 {font-family: 'Nunito', sans-serif; color: white;font-size: 40px; font-weight: 500;
+    text-transform: uppercase;border-radius: 20px 20px 0 0;background: #49B846; display: flex; 
+   justify-content: space-around; align-items: center; height: 98px; width:inherit; margin: 0;}
+
+.close {position: absolute; top: 25px; right: 29px; margin: 0;}
+
+.login {font-family: 'Nunito', sans-serif; color: #858483;font-size: 22px; font-weight: 500;
+    text-transform: uppercase;border-radius: 10px;background: #D7D8DD; display: flex; 
+    justify-content: space-around;align-items: center; 
+     height: 58px;width: 358px; margin-top: 68px;}
+
+.password {font-family: 'Nunito', sans-serif; color: #858483;font-size: 22px; font-weight: 500;
+        text-transform: uppercase;border-radius: 10px;background: #D7D8DD; display: flex; 
+        justify-content: space-around;align-items: center; 
+         height: 58px;width: 358px; margin-top: 51px;}
+
+.ok_btn {font-family: 'Nunito', sans-serif; color: white; font-size: 22px; font-weight: 500;
+            text-transform: uppercase;border-radius: 10px;background: #49B846; display: flex; 
+            justify-content: space-around;align-items: center; 
+             height: 58px;width: 144px; margin-top: 54px;margin-bottom: 55px;}
+
+
+             /* Список заявок - страница*/
+
+.container_done_o {padding: 0px 0px 16px 0px;}
+.container_done_padding_o {display: flex; justify-content: center;}
+.carousel_padding_o {display: flex; align-items: center;}
+
+       /* Левый лист */
+
+.left_paper {display: flex; flex-direction: column; background: white; border-radius: 20px;
+width: 598px; height: 264px; margin-top: -10px;}
+
+
+       /* Первая заявка */
+
+.order_item_padding {width: 598px; height: 88px;}       
+.order_item {display: flex; justify-content: space-between; padding: 16px;}        
+.list1_2_type_icon {display: flex; flex-direction: raw; padding-right: 25px;}
+.order_icon {width: 40px; height: 40px;border-radius: 25px; border: solid 1px #A3A3A3;
+    background: url(img/flashlight.jpg); background-size: contain; margin: 5px 16px 0px 0px;}
+.list1_list2_type {display: flex; flex-direction: column;}
+.list1{font-family: 'Nunito', sans-serif; color: #8F8F8F;font-size: 16px; font-weight: 600;}
+.list2 {font-family: 'Nunito', sans-serif; color: #8F8F8F;font-size: 12px; font-weight: 500;}
+.type_o {font-family: 'Nunito', sans-serif; color: #8F8F8F;font-size: 16px; font-weight: 500;}
+.verdict_date {display: flex; flex-direction: column; align-items: center; justify-content: space-between;}
+.verdict_new {font-family: 'Nunito', sans-serif; color: #8886E5; font-size: 12px; font-weight: 700;}
+.date_all_o {display: flex;justify-content: flex-start; align-items: flex-end;}
+.check_verdict_date {display: flex;}
+.checkbox_0 {margin: 0px 0px 0 12px; display: table-cell; vertical-align: top; }
+
+/* Вторая заявка */
+.verdict_no {font-family: 'Nunito', sans-serif; color: #CCC861; font-size: 12px; font-weight: 700;}
+.order_icon2 {width: 40px; height: 40px;border-radius: 25px; border: solid 1px #A3A3A3;
+    background: url(img/pit.jpg); background-size: contain; margin: 5px 16px 0px 0px;}
+
+/* Третья заявка */
+.verdict_yes {font-family: 'Nunito', sans-serif; color: #3EC03B; font-size: 12px; font-weight: 700;}
+.order_icon3 {width: 40px; height: 40px;border-radius: 25px; border: solid 1px #A3A3A3;
+    background: url(img/playground.jpg); background-size: contain; margin: 5px 16px 0px 0px;}
+
+    /* Правый лист */
+
+.right_paper {display: flex; flex-direction: column; background: white; border-radius: 20px;
+width: 598px; height: 264px; margin-left: 2px; margin-top: 10px;}
+
+/* Четвертая заявка */
+.order_icon4 {width: 40px; height: 40px;border-radius: 25px; border: solid 1px #A3A3A3;
+    background: url(img/snow.jpg); background-size: contain; margin: 5px 16px 0px 0px;}
+
+/* Пятая заявка */
+.order_icon5 {width: 40px; height: 40px;border-radius: 25px; border: solid 1px #A3A3A3;
+    background: url(img/pit.jpg); background-size: contain; margin: 5px 16px 0px 0px;}
+
+    /* Группа кнопок внизу страницы */
+
+    .bottom_icons {display: flex; margin: 14px 0; justify-content: space-around;}
+    .green_btn {font-family: 'Nunito', sans-serif;color: white;font-size: 16px; font-weight: 500;
+        border-radius: 10px;background: #49B846; display: flex; 
+        justify-content: center; align-items: center; width: 180px; height: 50px;}
+    .red_btn {font-family: 'Nunito', sans-serif;color: white;font-size: 16px; font-weight: 500;
+            border-radius: 10px;background: #CC7461; display: flex; 
+            justify-content: center;align-items: center; width: 180px; height: 50px;}
+    .exit_lk {text-align: center;}
+
+    
+    /* Окно выбора типа заявки */
+
+.popup_bg {position: absolute; background: #00000085; width: 100%; height: 100%; top: 0; left: 0;
+    display: none;}
+.popup1 {width: 500px; height: 500px; background: white; margin: 0 auto; margin-top: 5%; 
+    border-radius: 20px; display: flex; flex-direction: column; align-items: center; position: relative;}
+
+.ok_btn {font-family: 'Nunito', sans-serif; color: white; font-size: 22px; font-weight: 500;
+            text-transform: uppercase;border-radius: 10px;background: #49B846; display: flex; 
+            justify-content: space-around;align-items: center; 
+             height: 58px;width: 144px; margin-top: 54px;margin-bottom: 55px;}
+/* Группировка чекбоксов в окне фильтра заявок */
+             .verdict_list {font-size: 36px; font-weight: 700;}
+             .verdicts {display: flex; flex-direction: column; margin: 0px 68px;}
+             .checkbox_verdict {transform: scale(1.85)}
+             .verdict_checkbox {display: flex; width: 350px; justify-content: space-between;
+                align-items: center; margin: 20px 0 10px 0;}
+
+/* Страница регистрации */
+
+.fio {font-family: 'Nunito', sans-serif; color: #858483;font-size: 22px; font-weight: 500;
+    border-radius: 10px;background: #EAEAEA; display: flex; 
+    justify-content: center; align-items: center; text-align: center;
+     height: 58px;width: 560px; border: 0; }
+
+.left_paper_r {display: flex; flex-direction: column; justify-content: space-around;
+        align-items: center; align-content: center; background: white; border-radius: 20px;
+        width: 592px; height: 264px; margin-top: -10px; }
+       
+.right_paper_r {display: flex; flex-direction: column; justify-content: space-around; align-items: center;
+    background: white; border-radius: 20px; width: 592px; height: 264px; margin-left: 2px; margin-top: 10px;}
+
+    /* Соглашение на обработку */
+.checkbox_agreement {transform: scale(1.85); margin-right: 0.5em;}
+.agreement {font-family: 'Nunito', sans-serif; color: #E9E9E9;font-size: 22px; font-weight: 500;
+    border-radius: 10px; border: 0;background: #49B846; display: flex; 
+    justify-content: center; align-items: center; 
+     height: 58px;width: 560px; }
+
+.bottom_icons_r {display: flex; margin-bottom: 14px; justify-content: space-between;}
+
+
+
+        /* Зеленая кнопка */
+.return_main {margin-left: 155px;}
+ 
+        /* Желтая кнопка */
+.register {margin-right: 174px; border: 0}
+.yellow_btn {font-family: 'Nunito', sans-serif;color: white;font-size: 16px; font-weight: 500;
+            border-radius: 10px;background: #CCC861; display: flex; 
+            justify-content: space-around;align-items: center; width: 180px; height: 50px;}
+
+            /* Регулировка высоты хэдера после удаления верхней кнопки "Зарегистрироваться". */
+.container_r {padding: 34px 48px 52px 48px; display: flex; justify-content: space-between;}
+            
+    /* Страница создание заявки */
+.problem {font-family: 'Nunito', sans-serif; color: #858483;font-size: 22px; font-weight: 500;
+        border-radius: 10px;background: #EAEAEA; display: flex; 
+        justify-content: space-around; align-items:flex-start; 
+         height: 232px;width: 560px; border: 0; text-align: center;}
+
+.input {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;}
+
+
+:active, :hover, :focus {
+            outline: 0;
+            outline-offset: 0;
+        }
+        
+.label_select {display: flex;}
+
+#select_o {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+    background: url(logo/Logo.svg) no-repeat 25px/25px #49B846; background-position: 90% 36%;}
+    
+    /* Раскрывающийся список "Категория" */
+.category1 {font-family: 'Nunito', sans-serif; color: #E9E9E9;font-size: 22px; font-weight: 500;
+    border-radius: 10px 0px 0px 10px; border: 0;background: #49B846; display: flex; 
+    justify-content: end; align-items: center; 
+     height: 58px;width: 280px; padding-right: 20px; box-sizing: border-box;}
+.category2 {font-family: 'Nunito', sans-serif; color: #E9E9E9;font-size: 22px; font-weight: 500;
+        border-radius: 0px 10px 10px 0px; border: 1px dotted #E9E9E9;background: #49B846; display: flex; 
+        justify-content: center; align-items: center; 
+         height: 58px;width: 280px; padding-left: 20px; box-sizing: border-box;}
+    /* Конец списка */
+
+
+/* Адаптация под экран смартфона */
+@media (max-width: 720px) { 
+/* Шапка сайта */
+body {
+    margin: 0; 
+    background: #EAEAEA;
+}
+a {text-decoration: none; color: white;}
+header {background: linear-gradient(90deg, #8886E5, #3EC03B); margin: 0;}
+.container {padding: 34px 48px; display: block; justify-content: space-between;}
+.heading1 {font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 30px;color: white; text-transform: uppercase;}
+.slogan {font-family: 'Roboto', sans-serif; font-weight: 300;font-size: 25px; color:#E7E7E7; position: relative;}
+.logo {margin-right: 60px;}
+.registraion_btn {font-family: 'Roboto', sans-serif;color: white;font-size: 19px; font-weight: 400;
+    text-transform: uppercase;border-radius: 50px;background: #CCC861; display: flex; 
+    justify-content: center;align-items: center; 
+    margin-top: 18px; width: 295px; height: 54px; }
+
+.slogan_and_btn {text-align: center;}
+.logo_slogan_btn {display: flex; align-items: flex-end; margin-top: 14px; margin-bottom: 3px;}
+
+.arrow {margin: 90px -45px 0px -95px; display: none;}
+/* content: url(logo/Arrow_main_mobile.svg) */
+.arrow_lk {margin: 126px 329px -95px -95px; display: none;}
+
+.solution_btn {display: flex; flex-direction: column; align-items: flex-end; margin-top: -135px;
+}
+.solution {font-family: 'Roboto', sans-serif; font-weight: 400;font-size: 40px; color: #787878;
+    text-transform: uppercase;text-align: center;margin-right: 52px; display: none;}
+.enter_btn {font-family: 'Roboto', sans-serif;color: white;font-size: 19px; font-weight: 400;
+    text-transform: uppercase;border-radius: 50px;background: #CCC861; display: flex; 
+    justify-content: space-around;align-items: center; 
+    margin-bottom: 20px; width: 109px; height: 54px; }
+
+/* Блок сделали вместе */
+
+
+.done {font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 40px; color: #787878;
+    text-transform: uppercase; text-align: center; letter-spacing: .1em; 
+ margin: 22px auto; width: 50%; }
+    
+
+
+/* Кнопка назад */
+
+.rewind {margin-left: 20px; text-align: center;margin-top: 22px; margin-bottom: 22px; display: none;}
+.rewind img {transform: rotate(90deg); width: 24px;}
+
+/* Карусель */
+
+
+.container_done {padding: 0px 43px 0px 50px;}
+.container_done_padding {display: flex; justify-content: center;}
+.carousel_padding {display: block;}
+.carousel_items_padding {padding: 0 14px; margin-bottom: 23px; margin-top: 23px;}
+.carousel_items {display: flex; flex-direction: column; width: 625px; height:518px; 
+    background-color: #FFFFFF; border-radius: 20px;}
+.carousel_items_title {margin-top: 44px; margin-bottom: 64px;font-family: 'Nunito', sans-serif; 
+    font-weight: 400; font-size: 32px;color: #8F8F8F; text-align: center;}
+.carousel_image {
+    background:url(img/flashlight.jpg);
+    width: 625px;
+    height: 183px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.carousel_image2 {
+    background:url(img/pit.jpg);
+    width: 625px;
+    height: 183px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.carousel_image3 {
+    background:url(img/playground.jpg);
+    width: 224px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.carousel_image4 {
+    background:url(img/snow.jpg);
+    width: 224px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.category_all {display: flex;justify-content: flex-start; align-items: center;margin-left: 32px;
+    margin-bottom: -37px;}
+.drag_indicator {color: #BFBFBF;margin-right: 5px;display: flex;}
+.drag_indicator img {width: 33px;}
+.category_title {font-family: 'Nunito', sans-serif; 
+    font-weight: 300; font-size: 22px;color: #9E9E9E;margin-right: 4px;}
+.category {font-family: 'Nunito', sans-serif; 
+    font-weight: 600; font-size: 22px;text-transform: uppercase;color: #9E9E9E;}
+
+    .date_all {display: flex; justify-content: flex-end; align-items: center; margin-left: 37px;
+        margin-bottom: 36px; margin-right: 35px;}
+    .date_icon {color: #B4B4B4; margin-right: 6px;}
+    .date_icon img {width: 12px;}
+    .date {font-family: 'Nunito', sans-serif; 
+        font-weight: 400; font-size: 12px;color: #7A7A7A;}
+
+        /* Кнопка подробнее */
+
+.detailed {font-family: 'Nunito', sans-serif;color: white;font-size: 22px; font-weight: 500;
+    background: #49B846; display: flex; justify-content: space-around;align-items: center;
+     height: 58px; width: 551px ;border-radius: 10px; margin-left: 37px;}
+
+     /* Кнопка вперед */
+    .rewind {margin-right: 20px;}
+
+    .none {display: none;}
+  
+    /* Блок подвала */
+
+footer {font-family: 'Nunito', sans-serif;background-color: #474747; margin: 0;color: #D0D0D0; 
+     font-size: 23px; font-weight: 300;}
+.container_footer {padding: 18px 48px 24px 48px; display: flex;
+    align-items: center; flex-direction: column;}
+.phone {margin-left: 10px;}
+.telephone_phone {display: flex; justify-content: center;}
+.all_phone {display: flex;flex-direction: column;}
+.solved_all {display: flex; margin-top: 21px; font-size: 20px;}
+.solved_number {font-weight: 900;margin-left: 0.5em; margin-right: 0.5em;}
+
+/* Окно авторизации */
+
+.popup_bg {position: absolute; background: #00000085; width: 100%; height: 100%; top: 0; left: 0;
+    display: none;}
+.popup {width: 500px; background: white; margin: 0 auto; margin-top: 5%; border-radius: 20px;
+display: flex; flex-wrap: wrap; justify-content: center; position: relative;}
+
+h1 {font-family: 'Nunito', sans-serif; color: white;font-size: 40px; font-weight: 500;
+    text-transform: uppercase;border-radius: 20px 20px 0 0;background: #49B846; display: flex; 
+   justify-content: space-around; align-items: center; height: 98px; width:inherit; margin: 0;}
+
+.close {position: absolute; top: 25px; right: 29px; margin: 0;}
+
+.login {font-family: 'Nunito', sans-serif; color: #858483;font-size: 22px; font-weight: 500;
+    text-transform: uppercase;border-radius: 10px;background: #D7D8DD; display: flex; 
+    justify-content: space-around;align-items: center; 
+     height: 58px;width: 358px; margin-top: 68px;}
+
+.password {font-family: 'Nunito', sans-serif; color: #858483;font-size: 22px; font-weight: 500;
+        text-transform: uppercase;border-radius: 10px;background: #D7D8DD; display: flex; 
+        justify-content: space-around;align-items: center; 
+         height: 58px;width: 358px; margin-top: 51px;}
+
+.ok_btn {font-family: 'Nunito', sans-serif; color: white; font-size: 22px; font-weight: 500;
+            text-transform: uppercase;border-radius: 10px;background: #49B846; display: flex; 
+            justify-content: space-around;align-items: center; 
+             height: 58px;width: 144px; margin-top: 54px;margin-bottom: 55px;}
+
+
+             /* Список заявок - страница*/
+
+.container_done_o {padding: 0px 0px 0px 0px;}
+.container_done_padding_o {display: block; justify-content: center;}
+.carousel_padding_o {display: flex; align-items: center; flex-direction: column; margin: 26px 44px 41px 50px;}
+
+       /* Левый лист */
+
+.left_paper {display: flex; flex-direction: column; background: white; border-radius: 20px 20px 0 0;
+width: 100%; height: 281px; padding-top: 50px;}
+
+
+       /* Первая заявка */
+
+.order_item_padding {width: 96.7%; height: 88px;}       
+.order_item {display: flex; justify-content: space-between; padding: 16px;}        
+.list1_2_type_icon {display: flex; flex-direction: raw; padding-right: 25px;}
+.order_icon {width: 40px; height: 40px;border-radius: 25px; border: solid 1px #A3A3A3;
+    background: url(img/flashlight.jpg); background-size: contain; margin: 5px 16px 0px 0px;}
+.list1_list2_type {display: flex; flex-direction: column;}
+.list1{font-family: 'Nunito', sans-serif; color: #8F8F8F;font-size: 16px; font-weight: 600;}
+.list2 {font-family: 'Nunito', sans-serif; color: #8F8F8F;font-size: 12px; font-weight: 500;}
+.type_o {font-family: 'Nunito', sans-serif; color: #8F8F8F;font-size: 16px; font-weight: 500;}
+.verdict_date {display: flex; flex-direction: column; align-items: center; justify-content: space-between;}
+.verdict_new {font-family: 'Nunito', sans-serif; color: #8886E5; font-size: 12px; font-weight: 700;}
+.date_all_o {display: flex;justify-content: flex-start; align-items: flex-end;}
+.check_verdict_date {display: flex;}
+.checkbox_0 {margin: 0px 0px 0 12px; display: table-cell; vertical-align: top; }
+
+/* Вторая заявка */
+.verdict_no {font-family: 'Nunito', sans-serif; color: #CCC861; font-size: 12px; font-weight: 700;}
+.order_icon2 {width: 40px; height: 40px;border-radius: 25px; border: solid 1px #A3A3A3;
+    background: url(img/pit.jpg); background-size: contain; margin: 5px 16px 0px 0px;}
+
+/* Третья заявка */
+.verdict_yes {font-family: 'Nunito', sans-serif; color: #3EC03B; font-size: 12px; font-weight: 700;}
+.order_icon3 {width: 40px; height: 40px;border-radius: 25px; border: solid 1px #A3A3A3;
+    background: url(img/playground.jpg); background-size: contain; margin: 5px 16px 0px 0px;}
+
+    /* Правый лист */
+
+.right_paper {display: flex; flex-direction: column; background: white; border-radius: 0 0 20px 20px;
+    width: 100%; height: 281px; }
+
+/* Четвертая заявка */
+.order_icon4 {width: 40px; height: 40px;border-radius: 25px; border: solid 1px #A3A3A3;
+    background: url(img/snow.jpg); background-size: contain; margin: 5px 16px 0px 0px;}
+
+/* Пятая заявка */
+.order_icon5 {width: 40px; height: 40px;border-radius: 25px; border: solid 1px #A3A3A3;
+    background: url(img/pit.jpg); background-size: contain; margin: 5px 16px 0px 0px;}
+
+    /* Группа кнопок внизу страницы */
+
+    .bottom_icons {display: flex; margin-bottom: 26px; justify-content: space-around; 
+        flex-direction: column; align-items: center;}
+    .green_btn {font-family: 'Nunito', sans-serif;color: white;font-size: 22px; font-weight: 500;
+        border-radius: 10px;background: #49B846; display: flex; 
+        justify-content: center; align-items: center; width: 76.5%; height: 58px; margin: 26px 0;}
+    .red_btn {font-family: 'Nunito', sans-serif;color: white;font-size: 22px; font-weight: 500;
+            border-radius: 10px;background: #CC7461; display: flex; 
+            justify-content: center;align-items: center; width: 76.5%; height: 58px; margin: 26px 0;}
+    .exit_lk {text-align: center;}
+
+    
+        /* Окно выбора типа заявки */
+        /* Попап-окно фильтра заявок*/
+
+.popup_bg {position: absolute; background: #00000085; width: 100%; height: 100%; top: 0; left: 0;
+    display: none;}
+.popup_o {width: 500px; height: 500px; background: white; margin: 0 auto; margin-top: 10%; 
+    border-radius: 20px; display: flex; flex-direction: column; align-items: center; position: relative;}
+
+.ok_btn {font-family: 'Nunito', sans-serif; color: white; font-size: 22px; font-weight: 500;
+            text-transform: uppercase;border-radius: 10px;background: #49B846; display: flex; 
+            justify-content: space-around;align-items: center; 
+             height: 58px;width: 144px; margin-top: 54px;margin-bottom: 55px;}
+/* Группировка чекбоксов в окне фильтра заявок */
+             .verdict_list {font-size: 36px; font-weight: 700;}
+             .verdicts {display: flex; flex-direction: column; margin: 0px 68px;}
+             .checkbox_verdict {transform: scale(1.85)}
+             .verdict_checkbox {display: flex; width: 350px; justify-content: space-between;
+                align-items: center; margin: 20px 0 10px 0;}
+
+/* Страница регистрации */
+
+.fio {font-family: 'Nunito', sans-serif; color: #858483;font-size: 22px; font-weight: 500;
+    border-radius: 10px;background: white; display: flex; 
+    justify-content: center; align-items: center; text-align: center;
+     height: 58px;width: 560px; border: 0; margin-top: 41px;}
+
+.left_paper_r {display: flex; flex-direction: column; justify-content: space-around;
+        align-items: center; align-content: center; background: white; border-radius: 20px;
+        width: 592px; height: 264px; margin-top: 0px; }
+       
+.right_paper_r {display: flex; flex-direction: column; justify-content: space-around; align-items: center;
+    background: white; border-radius: 20px; width: 592px; height: 264px; margin-left: 2px; margin-top: 10px;}
+
+    /* Соглашение на обработку */
+.checkbox_agreement {transform: scale(1.85); margin-right: 0.5em;}
+.agreement {font-family: 'Nunito', sans-serif; color: #E9E9E9;font-size: 22px; font-weight: 500;
+    border-radius: 10px; border: 0;background: #49B846; display: flex; 
+    justify-content: center; align-items: center; 
+     height: 58px;width: 560px; }
+
+.bottom_icons_r {display: flex; margin-bottom: 26px; justify-content: space-between; 
+    flex-direction: column-reverse;}
+
+
+
+        /* Зеленая кнопка */
+/* .return_main {} */
+ 
+        /* Желтая кнопка */
+.register, .ok_btn {border: 0}
+.yellow_btn {font-family: 'Nunito', sans-serif;color: white;font-size: 16px; font-weight: 500;
+            border-radius: 10px;background: #CCC861; display: flex; 
+            justify-content: space-around;align-items: center; width: 90%; height: 50px;}
+
+            /* Регулировка высоты хэдера после удаления верхней кнопки "Зарегистрироваться". */
+.container_r {padding: 34px 48px 52px 48px; display: flex; justify-content: space-between;}
+            
+    /* Страница создание заявки */
+.problem {font-family: 'Nunito', sans-serif; color: #858483;font-size: 22px; font-weight: 500;
+        border-radius: 10px;background: #EAEAEA; display: flex; 
+        justify-content: space-around; align-items:flex-start; 
+         height: 232px;width: 560px; border: 0; text-align: center;}
+
+.input {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;}
+
+
+:active, :hover, :focus {
+            outline: 0;
+            outline-offset: 0;
+        }
+        
+.label_select {display: flex;}
+
+#select_o {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+    background: url(logo/Logo.svg) no-repeat 25px/25px #49B846; background-position: 85% 36%;}
+    
+    /* Раскрывающийся список "Категория" */
+.category1 {font-family: 'Nunito', sans-serif; color: #E9E9E9;font-size: 22px; font-weight: 500;
+    border-radius: 10px 0px 0px 10px; border: 0;background: #49B846; display: flex; 
+    justify-content: end; align-items: center; 
+     height: 58px;width: 280px; padding-right: 20px; box-sizing: border-box;}
+.category2 {font-family: 'Nunito', sans-serif; color: #E9E9E9;font-size: 22px; font-weight: 500;
+        border-radius: 0px 10px 10px 0px; border: 1px dotted #E9E9E9;background: #49B846; display: flex; 
+        justify-content: center; align-items: center; 
+         height: 58px;width: 280px; padding-left: 30px; box-sizing: border-box;}
+    /* Конец списка */
+
+
+    /* Последняя кавычка адаптации под экран смартфона   */
+    }

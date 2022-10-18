@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style_r.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ <header>
+ <!-- Шапка сайта -->
+ <div class="container_r">
+    <div class="head_logo_slogan_btn">
+        <div class="heading1">Начни решать проблемы сегодня!</div>
+            <div class="logo_slogan_btn">
+             <div class="logo" ><img src="logo/Logo.svg"></div>
+                <div class="slogan_and_btn">
+                 <div class="slogan">Сделаем <span style="font-weight: 900; 
+                 text-decoration: underline; font-size: 30px;">лучше</span> вместе!</div>
+                 <div class="registraion_btn_r">  </div>
+                </div>
+            </div>
+    </div>
+
+
+
+</div>
+ </header>   
+<!-- Блок список заявок -->
+
+
+    <div class="done">Начинаем<span style="color: #4599B4; font-weight: 900;"> регистрацию</span></div>    
+    <div class="container_done_padding_o">
+    <div class="container_done_o">
+        <!-- <div class="carousel_o"> -->
+            <div class="carousel_padding_o">
+
+    <form action="https://portal.ru" method="get" form id="reg_form"></form>
+    <!-- Левый лист -->
+   <div class="left_paper_r">
+            
+    <input type="text" name="name" placeholder="Укажите Ваши ФИО" form="reg_form" class="fio">
+    <input type="text" name="login" placeholder="Придумайте логин" form="reg_form" class="fio">
+    <input type="email" name="email" placeholder="Введите Ваш E-mail" form="reg_form" class="fio">
+            
+    
+
+   </div>
+   <!-- Конец левого листа -->
+
+<!-- Правый лист -->
+<div class="right_paper_r">
+    <input type="password" name="password" placeholder="Придумайте пароль" form="reg_form" class="fio">
+    <input type="password" name="password" placeholder="Повтор пароля" form="reg_form" class="fio">
+    
+    <div class="agreement">
+        <div class="checkbox_agreement"><input type="checkbox" name="reg_agreement" 
+            value="reg_yes" form="reg_form"></div>
+        Согласие на обработку персональных данных
+    </div>
+           
+   </div>
+   <!-- Конец правого листа -->
+
+    
+
+</div>
+    </div>
+    <!-- </div> от тега carousel_o-->
+</div>
+
+ <!--Группа кнопок внизу страницы  -->
+
+        <div class="bottom_icons_r">
+         
+    <div class="green_btn return_main"><a href="index.html">Вернуться на главную</a></div>
+    <button type="submit" form="reg_form" class="yellow_btn register"><a href="order_list.html">Зарегистрироваться</a></button>
+
+        </div>
+
+<!-- Подвал -->
+<footer>
+<div class="container_footer">
+    <div class="all_phone">
+        <div class="telephone_phone">
+            <div class="telephone">Телефон:</div>
+            <div class="phone" ><img src="logo/phone-classic.svg"></div>
+        </div>
+        <div class="numberphone">(846) 332-22-03</div>
+    </div>
+    <div class="solved_all">
+        <div class="solved1">Мы решили </div>
+        <div class="solved_number">99999</div>     
+        <div class="solved2">проблем с Вашей помощью.</div>
+    </div>
+
+
+ </footer>
+
+</body>
+</html>
