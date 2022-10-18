@@ -317,6 +317,8 @@ width: 598px; height: 264px; margin-left: 2px; margin-top: 10px;}
 
 /* Адаптация под экран смартфона */
 @media (max-width: 720px) { 
+
+
 /* Шапка сайта */
 body {
     margin: 0; max-width: 720px;
@@ -581,7 +583,7 @@ width: 625px; height: 281px;}
          margin-top: 0px; }
        
 .right_paper_r {display: flex; flex-direction: column; justify-content: space-around; align-items: center;
-    border-radius: 0 0 20px 20px;  }
+    border-radius: 0 0 20px 20px; margin-top: 0px;}
 
     /* Соглашение на обработку */
 .checkbox_agreement {transform: scale(1.85); margin-right: 0.5em;}
